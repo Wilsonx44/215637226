@@ -82,7 +82,7 @@ public class HelperS3 {
             } else if (v.functionName == g1.size - 1){
                 System.out.println(finalTime);
             } else {
-                System.out.println(known.known[count].functionName + "  " + v.functionRequiredMS);
+                System.out.println(known.known[count].functionName + " " + v.functionRequiredMS);
                 //totalMS = totalMS + temp3.element.functionMS;
             }
         }

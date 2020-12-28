@@ -62,7 +62,7 @@ public class HelperS2 {
             } else if (temp3.element.functionName == g1.size - 1){
                 System.out.println(totalMS);
             } else {
-                System.out.println(temp3.element.functionName + "  " + totalMS);
+                System.out.println(temp3.element.functionName + " " + totalMS);
                 totalMS = totalMS + temp3.element.functionMS;
             }
 
